@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Philippines</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFFFFF;
+        }
+        header {
+            background-color: #0038a8;
+            color: rgb(250, 245, 245);
+            padding: 30px;
+            text-align: center;
+            position: relative;
+        }
+        header img.logo {
+            position: absolute;
+            left: 20px;
+            top: 5px;
+            width: 280px;
+            height: auto;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #e9cd70;
+        }
+        nav a {
+            padding: 14px 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #2e8b57;
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            background-color: #008080;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin: 10px 0;
+        }
+        .landmark-gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .landmark-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://i.postimg.cc/WzNBtbKT/hq720.jpg" alt="Philippines Flag" class="logo">
+        <h1>Discover Philippines</h1>
+        <p>Your ultimate guide to the top landmarks of the Philippines!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#landmarks">Landmarks</a>
+        <a href="#events">Events</a>
+    </nav>
+
+    <div class="container" id="home">
+        <h2>Welcome to the Philippines!</h2>
+        <p>Philippines, island country of Southeast Asia in the western Pacific Ocean. It is an archipelago consisting of more than 7,000 islands and islets lying about 500 miles (800 km) off the coast of Vietnam.</p>
+        <p>It is an archipelago consisting of more than 7,000 islands and islets lying about 500 miles (800 km) off the coast of Vietnam.
+        <p>Explore the beauty of over 7,000 islands filled with stunning beaches, vibrant culture, and historical landmarks.</p>
+        <img src="https://i.postimg.cc/xCLcPgtt/El-Nido.webp" alt="El Nido, Palawan">
+        <img src="https://i.postimg.cc/W3XtsJRT/Manila.jpg" alt="Manila, Metro Manila">
+        <img src="https://i.postimg.cc/Y0SSy2s0/Manila-bay.jpg" alt="Manila Bay, Metro Manila">
+        <img src="https://i.postimg.cc/xCvsFnbw/BGC.jpg" alt="BGC, Makati Manila">
+    </div>
+
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>We are a team of travel enthusiasts dedicated to showcasing the wonders of the Philippines. Whether you're a local or a tourist, our goal is to make your travel planning easier and more exciting.</p>
+
+        <h3>Contact Us</h3>
+        <p>Email: info@discoverphilippines.com</p>
+        <p>Phone: +63 123 456 7890</p>
+        <p>Address: 123 Mabuhay St., Manila, Philippines</p>
+    </div>
+
+    <div class="container" id="landmarks">
+        <h2>Top Landmarks</h2>
+        <ul>
+            <li><strong>Mayon Volcano</strong> - Perfect cone-shaped volcano in Albay.</li>
+            <li><strong>Chocolate Hills</strong> - Unique hills in Bohol that turn brown in summer.</li>
+            <li><strong>Intramuros</strong> - Historic walled city in Manila.</li>
+            <li><strong>Puerto Princesa Underground River</strong> - UNESCO World Heritage Site.</li>
+        </ul>
+
+        <div class="landmark-gallery">
+            <img src="https://i.postimg.cc/nc295RZW/Mayon.jpg" alt="Mayon Volcano">
+            <img src="https://i.postimg.cc/MpxfwwN6/chocolate-hills.jpg" alt="Chocolate Hills">
+            <img src="https://i.postimg.cc/QM2F5vkF/intramuros.jpg" alt="Intramuros">
+            <img src="https://i.postimg.cc/JzdD7ssc/puerto-prinsesa.jpg" alt="Puerto Princesa Underground River">
+        </div>
+    </div>
+
+    <div class="container" id="events">
+        <h2>Upcoming Events</h2>
+        <ul>
+            <li><strong>Sinulog Festival</strong> - April 19, Cebu City</li>
+            <li><strong>Ati-Atihan Festival</strong> - May 12-19, Kalibo</li>
+            <li><strong>Pahiyas Festival</strong> - June 15, Lucban</li>
+        </ul>
+
+        <h3>Booking Information</h3>
+        <p>To attend these events and book guided tours, contact our support team at <strong>booking@discoverphilippines.com</strong>.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Discover Philippines. All rights reserved.</p>
+    </footer>
+</body>
+</html>
